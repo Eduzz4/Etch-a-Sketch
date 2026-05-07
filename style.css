@@ -1,0 +1,35 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+#programa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#opções {
+display: flex;
+flex-direction: column;
+padding: 10px;
+gap: 15px;
+align-items: center;
+}
+
+#grade {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quadrado {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
